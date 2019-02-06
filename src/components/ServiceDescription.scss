@@ -1,0 +1,34 @@
+@import '../Variables.scss';
+
+.service-container{
+
+
+  .service-content-container{
+    padding:20px 0 20px 12%;
+    background: $accent;
+    width:75%;
+    .service-text{
+      width:50%;
+      h2{
+        text-transform: uppercase;
+        font-weight:bold;
+        font-size:26px;
+        color:$white;
+      }
+      p{
+        color:$white;
+        font-size:22px;
+
+      }
+
+    }
+
+  }
+  .triangle{
+    width: 0;
+    height: 0;
+    border-top: 300px solid transparent;
+    border-left:100px solid $accent;
+
+  }
+}

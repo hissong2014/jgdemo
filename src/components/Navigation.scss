@@ -1,0 +1,63 @@
+@import '../Variables.scss';
+
+.navigation-container{
+  width:100%;
+  padding-top:40px;
+  ul{
+    padding-top:10px;
+    list-style-type: none;
+    li+li{
+      padding-left:25px;
+    }
+    li{
+      display:inline;
+
+      a{
+        padding-top:30px;
+        text-decoration:none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color:$neutral;
+      }
+      a:hover{
+        color:$secondary;
+        border-bottom: 2px solid $secondary;
+      }
+    }
+  }
+  .logo{
+    float:left;
+  }
+  .logo-min{
+    width:50px;
+    height:auto;
+  }
+  .logo-text{
+
+    float:left;
+    color:$primary;
+    font-weight:bold;
+  }
+  .logo-text-min{
+    padding-top:15px;
+    font-size:12px;
+  }
+  .logo-text-full{
+    padding-top:34px;
+    font-size:25px;
+  }
+}
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background:rgba(255, 255, 255, .9);
+  z-index: 10000;
+  padding-top:10px;
+  .logo{
+    img{
+      width:10px;
+    }
+  }
+}

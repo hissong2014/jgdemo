@@ -1,0 +1,9 @@
+@import '../Variables.scss';
+
+.thumb-cert-container{
+  background:$primary;
+  padding:10px 0;
+}
+.certPreview + .certPreview{
+  padding-left:40px;
+}

@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TopCertification from './components/TopCertification.js';
+import Navigation from './components/Navigation.js';
+import HeroImage from './components/HeroImage.js';
+import SectionDivider from './components/SectionDivider.js';
+import ServiceDescription from './components/ServiceDescription';
+import './App.scss';
 
-class App extends Component {
-  render() {
-    return (
+const App = () =>{
+  return(
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <TopCertification />
+        <Navigation />
+        <HeroImage />
+        <SectionDivider title="services"/>
+        <ServiceDescription />
       </div>
-    );
-  }
-}
+  );
+};
 
 export default App;
