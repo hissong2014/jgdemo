@@ -13,7 +13,16 @@ const App = () =>{
         <Navigation />
         <HeroImage />
         <SectionDivider title="services"/>
-        <ServiceDescription />
+        <ServiceDescription
+          position="left"
+          title="demolition"
+          description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
+        />
+        <ServiceDescription
+          position="right"
+          title="demolition"
+          description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
+        />
       </div>
   );
 };

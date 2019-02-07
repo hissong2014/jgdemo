@@ -1,34 +1,42 @@
 @import '../Variables.scss';
 
 .service-container{
-
-
+  margin-bottom:50px;
+  .left-padding{padding:20px 0 20px 15%;}
+  .right-padding{padding:20px 15% 20px 0;}
   .service-content-container{
-    padding:20px 0 20px 12%;
     background: $accent;
-    width:75%;
+    width:60%;
+    .text-padding-left{padding-left:80px;}
+    .text-padding-right{padding-right:80px;}
     .service-text{
       width:50%;
+      margin-top:30px;
       h2{
         text-transform: uppercase;
         font-weight:bold;
-        font-size:26px;
+        font-size:28px;
         color:$white;
+        margin-bottom:10px;
       }
       p{
         color:$white;
-        font-size:23px;
-
+        font-size:22px;
       }
-
     }
-
   }
-  .triangle{
+  .triangle-left{
+    float:left;
     width: 0;
     height: 0;
     border-top: 300px solid transparent;
     border-left:100px solid $accent;
-
+  }
+  .triangle-right{
+    float:right;
+    width: 0;
+    height: 0;
+    border-top: 300px solid transparent;
+    border-right:100px solid $accent;
   }
 }

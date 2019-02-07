@@ -6,15 +6,15 @@ class ServiceDescription extends Component {
   render() {
     return (
       <div className="service-container">
-          <div className="float-left service-content-container">
-            <img src="images/ServiceExample.png" width="260" height="260" alt="" className="float-left"/>
-            <div className="float-left service-text">
-              <h2>demolition</h2>
-              <p>You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself.</p>
+          <div className={this.props.position ==='left' ? 'service-content-container left-padding float-left' : 'service-content-container float-right right-padding' }>
+            <img src="images/service-example.jpg" width="260" height="260" alt="" className={this.props.position ==='left' ? 'float-left' : 'float-right' }/>
+            <div className={this.props.position ==='left' ? 'service-text text-padding-left float-left' : 'service-text text-padding-right float-right' }>
+              <h2>{this.props.title}</h2>
+              <p>{this.props.description}</p>
             </div>
             <div className="clear"></div>
           </div>
-          <div className="triangle float-left"></div>
+          <div className={this.props.position ==='left' ? 'triangle-left' : 'triangle-right' }></div>
         <div className="clear"></div>
       </div>
     );
