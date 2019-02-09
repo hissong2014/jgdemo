@@ -7,6 +7,7 @@ import ServiceDescriptionLeft from './components/ServiceDescriptionLeft';
 import ServiceDescriptionRight from './components/ServiceDescriptionRight';
 import WorkLocations from './components/WorkLocations';
 import CertificateDescription from './components/CertificateDescription';
+import CircleImage from './components/CircleImage';
 import './App.scss';
 
 const App = () =>{
@@ -42,6 +43,8 @@ const App = () =>{
         <WorkLocations />
         <SectionDivider title="certifications"/>
         <CertificateDescription />
+        <SectionDivider title="about us" />
+        <CircleImage />
       </div>
   );
 };
