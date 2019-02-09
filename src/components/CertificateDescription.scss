@@ -1,0 +1,29 @@
+@import '../Variables.scss';
+
+.certificate{
+  width:340px;
+  padding:0 30px;
+  text-align: center;
+  margin-bottom:80px;
+  .cert{
+    margin-bottom:30px;
+  }
+  .title{
+    font-size:26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:$primary;
+    margin-bottom:8px;
+  }
+  .date{
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:$accent;
+    margin-bottom:8px;
+  }
+  .description{
+    font-size:16px;
+    color:$neutral;
+  }
+}

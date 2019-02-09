@@ -6,6 +6,7 @@ import SectionDivider from './components/SectionDivider.js';
 import ServiceDescriptionLeft from './components/ServiceDescriptionLeft';
 import ServiceDescriptionRight from './components/ServiceDescriptionRight';
 import WorkLocations from './components/WorkLocations';
+import CertificateDescription from './components/CertificateDescription';
 import './App.scss';
 
 const App = () =>{
@@ -40,6 +41,7 @@ const App = () =>{
 
         <WorkLocations />
         <SectionDivider title="certifications"/>
+        <CertificateDescription />
       </div>
   );
 };
