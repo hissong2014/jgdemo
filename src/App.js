@@ -5,6 +5,7 @@ import HeroImage from './components/HeroImage.js';
 import SectionDivider from './components/SectionDivider.js';
 import ServiceDescriptionLeft from './components/ServiceDescriptionLeft';
 import ServiceDescriptionRight from './components/ServiceDescriptionRight';
+import WorkLocations from './components/WorkLocations';
 import './App.scss';
 
 const App = () =>{
@@ -30,6 +31,15 @@ const App = () =>{
           title="demolition"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
+
+        <ServiceDescriptionRight
+          position="right"
+          title="demolition"
+          description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
+        />
+
+        <WorkLocations />
+        <SectionDivider title="certifications"/>
       </div>
   );
 };
