@@ -2,7 +2,7 @@
   "name": "jgdemo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://github.com/hissong2014/jgdemo",
+  "homepage": "https://hissong2014.github.io/jgdemo",
 
   "dependencies": {
     "node-sass": "^4.11.0",
