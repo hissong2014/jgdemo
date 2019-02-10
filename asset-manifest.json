@@ -1,13 +1,13 @@
 {
-  "main.css": "/hissong2014/jgdemo/static/css/main.3de767c3.chunk.css",
-  "main.js": "/hissong2014/jgdemo/static/js/main.86cf7d6d.chunk.js",
-  "main.js.map": "/hissong2014/jgdemo/static/js/main.86cf7d6d.chunk.js.map",
-  "static/js/1.26373ba7.chunk.js": "/hissong2014/jgdemo/static/js/1.26373ba7.chunk.js",
-  "static/js/1.26373ba7.chunk.js.map": "/hissong2014/jgdemo/static/js/1.26373ba7.chunk.js.map",
-  "runtime~main.js": "/hissong2014/jgdemo/static/js/runtime~main.e35c14c4.js",
-  "runtime~main.js.map": "/hissong2014/jgdemo/static/js/runtime~main.e35c14c4.js.map",
-  "static/css/main.3de767c3.chunk.css.map": "/hissong2014/jgdemo/static/css/main.3de767c3.chunk.css.map",
-  "index.html": "/hissong2014/jgdemo/index.html",
-  "precache-manifest.7d132388d3680f26e142ad938fdfa491.js": "/hissong2014/jgdemo/precache-manifest.7d132388d3680f26e142ad938fdfa491.js",
-  "service-worker.js": "/hissong2014/jgdemo/service-worker.js"
+  "main.css": "/jgdemo/static/css/main.3de767c3.chunk.css",
+  "main.js": "/jgdemo/static/js/main.ce1ecafd.chunk.js",
+  "main.js.map": "/jgdemo/static/js/main.ce1ecafd.chunk.js.map",
+  "static/js/1.26373ba7.chunk.js": "/jgdemo/static/js/1.26373ba7.chunk.js",
+  "static/js/1.26373ba7.chunk.js.map": "/jgdemo/static/js/1.26373ba7.chunk.js.map",
+  "runtime~main.js": "/jgdemo/static/js/runtime~main.9f309f52.js",
+  "runtime~main.js.map": "/jgdemo/static/js/runtime~main.9f309f52.js.map",
+  "static/css/main.3de767c3.chunk.css.map": "/jgdemo/static/css/main.3de767c3.chunk.css.map",
+  "index.html": "/jgdemo/index.html",
+  "precache-manifest.6121c0f5d4098363de508da596670a21.js": "/jgdemo/precache-manifest.6121c0f5d4098363de508da596670a21.js",
+  "service-worker.js": "/jgdemo/service-worker.js"
 }
