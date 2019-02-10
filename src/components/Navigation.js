@@ -8,9 +8,9 @@ class Navigation extends Component {
 
       this.state = {
           navigation : [
-            {key:1, navTitle:"Services", navURL:"#"},
-            {key:2, navTitle:"certifications", navURL:"#"},
-            {key:3, navTitle:"About Us", navURL:"#"},
+            {key:1, navTitle:"Services", navURL:"#services"},
+            {key:2, navTitle:"certifications", navURL:"#certifications"},
+            {key:3, navTitle:"About Us", navURL:"#about us"},
             {key:4, navTitle:"Contact Us", navURL:"#"},
           ],
           scrolled:false
