@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ServiceDescription.scss';
 import Fade from 'react-reveal/Fade';
+import CircleImage from './CircleImage';
 
 class ServiceDescriptionRight extends Component {
 
@@ -10,7 +11,9 @@ class ServiceDescriptionRight extends Component {
       <Fade right>
       <div className="service-container">
           <div className="service-content-container right-padding float-right">
-            <img src="images/service-example.jpg" width="260" height="260" alt="" className="float-right"/>
+          <div className="float-right">
+            <CircleImage image={this.props.image} color="white"/>
+          </div>
             <div className="service-text text-padding-right float-right">
               <h2>{this.props.title}</h2>
               <p>{this.props.description}</p>

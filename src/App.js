@@ -18,24 +18,24 @@ const App = () =>{
         <HeroImage />
         <SectionDivider title="services"/>
         <ServiceDescriptionLeft
-          position="left"
+          image="images/demo-image.jpg"
           title="demolition"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
         <ServiceDescriptionRight
-          position="right"
+          image="images/IMAGE3.jpg"
           title="demolition"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
 
         <ServiceDescriptionLeft
-          position="left"
+          image="images/IMAGE3.jpg"
           title="demolition"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
 
         <ServiceDescriptionRight
-          position="right"
+          image="images/IMAGE3.jpg"
           title="demolition"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
@@ -44,7 +44,7 @@ const App = () =>{
         <SectionDivider title="certifications"/>
         <CertificateDescription />
         <SectionDivider title="about us" />
-        <CircleImage />
+        <CircleImage image="images/ServiceExample.png" color="red"/>
       </div>
   );
 };

@@ -4,10 +4,13 @@ import './CircleImage.scss';
 class CircleImage extends Component {
 
   render() {
+
     return (
-      <div className="circle-container">
-        <img src="images/ServiceExample.png" alt=""/>
-      </div>
+
+        <div className={this.props.color === 'primary' ? 'circle-container circle-container-primary' : 'circle-container circle-container-white'}>
+          <img src={this.props.image} alt=""/>
+        </div>
+
     );
   }
 
