@@ -9,7 +9,7 @@ class AboutUs extends Component {
       <div className="main-container about-us">
         <div className="display-inline-block">
           <div className="float-left">
-            <Badge image="images/mom.png" name="Juanita Weeks" title="President"/>
+            <Badge image="images/employees/juanita-weeks.png" name="Juanita Weeks" title="President"/>
           </div>
           <div className="float-left description">
             <p>
@@ -22,9 +22,9 @@ class AboutUs extends Component {
           <div className="clear"></div>
         </div>
         <div className="employees">
-          <Badge image="images/mom.png" name="Gary Weeks" title="Co-President" small/>
-          <Badge image="images/mom.png" name="Cody Weeks" title="Co-President" small/>
-          <Badge image="images/mom.png" name="Shelley Gamble-Baker" title="Office Manager" small/>
+          <Badge image="images/employees/" name="Gary Weeks" title="Co-President" small/>
+          <Badge image="images/employees/" name="Cody Weeks" title="Co-President" small/>
+          <Badge image="images/employees/shelly-gamble-baker.png" name="Shelley Gamble-Baker" title="Office Manager" small/>
         </div>
       </div>
     );

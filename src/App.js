@@ -18,24 +18,24 @@ const App = () =>{
         <HeroImage />
         <SectionDivider title="services"/>
         <ServiceDescriptionLeft
-          image="images/demo-image.jpg"
+          image="images/services/demolition.jpg"
           title="demolition"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
         <ServiceDescriptionRight
-          image="images/IMAGE3.jpg"
+          image="images/services/roofing.jpg"
           title="roofing"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
 
         <ServiceDescriptionLeft
-          image="images/IMAGE3.jpg"
+          image="images/services/asbestos-removal.jpg"
           title="asbestos removal"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
 
         <ServiceDescriptionRight
-          image="images/IMAGE3.jpg"
+          image="images/services/material-supplier.jpg"
           title="material supplier"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
