@@ -3,6 +3,11 @@
 .thumb-cert-container{
   background:$primary;
   padding:10px 0;
+  .certPreview{
+    max-width: 170px;
+    height: auto;
+    max-height: 70px;
+  }
 }
 .certPreview + .certPreview{
   padding-left:40px;
