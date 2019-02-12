@@ -1,0 +1,21 @@
+@import '../Variables.scss';
+
+.badge{
+  text-align: center;
+  display:inline-block;
+  h2{
+    margin-top:25px;
+    color:$secondary;
+    font-weight:bold;
+  }
+  h3{
+    font-size:18px;
+    color:$neutral;
+  }
+  .text-large{
+    font-size:30px;
+  }
+  .text-small{
+    font-size:22px;
+  }
+}

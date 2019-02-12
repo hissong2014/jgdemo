@@ -7,7 +7,7 @@ import ServiceDescriptionLeft from './components/ServiceDescriptionLeft';
 import ServiceDescriptionRight from './components/ServiceDescriptionRight';
 import WorkLocations from './components/WorkLocations';
 import CertificateDescription from './components/CertificateDescription';
-import CircleImage from './components/CircleImage';
+import AboutUs from './components/AboutUs';
 import './App.scss';
 
 const App = () =>{
@@ -24,19 +24,19 @@ const App = () =>{
         />
         <ServiceDescriptionRight
           image="images/IMAGE3.jpg"
-          title="demolition"
+          title="roofing"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
 
         <ServiceDescriptionLeft
           image="images/IMAGE3.jpg"
-          title="demolition"
+          title="asbestos removal"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
 
         <ServiceDescriptionRight
           image="images/IMAGE3.jpg"
-          title="demolition"
+          title="material supplier"
           description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
         />
 
@@ -44,7 +44,7 @@ const App = () =>{
         <SectionDivider title="certifications"/>
         <CertificateDescription />
         <SectionDivider title="about us" />
-        <CircleImage image="images/ServiceExample.png" color="red"/>
+        <AboutUs />
       </div>
   );
 };

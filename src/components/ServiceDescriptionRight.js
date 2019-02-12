@@ -12,7 +12,7 @@ class ServiceDescriptionRight extends Component {
       <div className="service-container">
           <div className="service-content-container right-padding float-right">
           <div className="float-right">
-            <CircleImage image={this.props.image} color="white"/>
+            <CircleImage image={this.props.image} white/>
           </div>
             <div className="service-text text-padding-right float-right">
               <h2>{this.props.title}</h2>
