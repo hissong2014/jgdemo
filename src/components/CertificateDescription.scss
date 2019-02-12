@@ -1,13 +1,20 @@
 @import '../Variables.scss';
 
 .certificate{
-  width:340px;
+  width:20%;
   padding:0 30px;
   text-align: center;
   margin-bottom:80px;
-  .cert{
-    margin-bottom:30px;
+  .image-height{
+    height:210px;
+    margin-bottom:10px;
+    .cert{
+      max-height:200px;
+      width:auto;
+      max-width:100%;
+    }
   }
+
   .title{
     font-size:26px;
     font-weight: bold;

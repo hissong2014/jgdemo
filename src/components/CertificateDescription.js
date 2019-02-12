@@ -82,7 +82,9 @@ class CertificateDescription extends Component {
       <div className="main-container center-block">
         {this.state.certificates.map(certificate =>
           <div key={certificate.key} className="certificate float-left">
-            <img className="cert" src={certificate.image} width="300" alt=""/>
+            <div className="image-height">
+            <img className="cert" src={certificate.image} alt=""/>
+            </div>
             <h2 className="title">{certificate.title}</h2>
             <p className="date">{certificate.date}</p>
             <p className="description">{certificate.description}</p>

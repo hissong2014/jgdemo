@@ -2,6 +2,7 @@
 
 .about-us{
   text-align:center;
+  padding-bottom:120px;
   .display-inline-block{
     display:inline-block;
     .description{
@@ -16,6 +17,12 @@
         margin-top:15px;
       }
 
+    }
+  }
+  .employees{
+    margin-top:60px;
+    .badge + .badge{
+      margin-left: 80px;
     }
   }
 
