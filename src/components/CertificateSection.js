@@ -63,7 +63,7 @@ class CertificateSection extends Component {
   render() {
     return (
       <div>
-        <SectionDivider title="certifications"/>
+        <SectionDivider title="certifications" location="certifications"/>
         <div className="main-container center-block">
 
           {this.state.certificates.map(certificate =>

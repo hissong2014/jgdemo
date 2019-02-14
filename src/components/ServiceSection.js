@@ -9,7 +9,7 @@ class ServiceSection extends Component {
   render() {
     return (
       <div>
-        <SectionDivider title="services"/>
+        <SectionDivider title="services" location="services"/>
         <ServiceDescriptionLeft
           image="images/services/demolition.jpg"
           title="demolition"

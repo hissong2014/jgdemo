@@ -10,8 +10,8 @@ class Navigation extends Component {
           navigation : [
             {key:1, navTitle:"Services", navURL:"#services"},
             {key:2, navTitle:"certifications", navURL:"#certifications"},
-            {key:3, navTitle:"About Us", navURL:"#about us"},
-            {key:4, navTitle:"Contact Us", navURL:"#"},
+            {key:3, navTitle:"About Us", navURL:"#about-us"},
+            {key:4, navTitle:"Contact Us", navURL:"#contact-us"},
           ],
           scrolled:false
         }

@@ -8,7 +8,7 @@ class AboutUs extends Component {
   render() {
     return (
       <div>
-        <SectionDivider title="about us" />
+        <SectionDivider title="about us" location="about-us"/>
 
         <div className="main-container about-us">
           <div className="display-inline-block">
