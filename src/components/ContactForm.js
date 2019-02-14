@@ -16,6 +16,9 @@ class ContactForm extends Component {
 
           <label htmlFor="message">Inquiry</label>
           <textarea name="message" id="message"></textarea>
+
+          <input id="submit" className="submit float-right" name="submit" type="submit" value="SUBMIT"/>
+          <div className="clear"></div>
         </form>
       </div>
     );
