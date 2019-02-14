@@ -3,6 +3,7 @@ import ContactForm from './ContactForm';
 import CareerOpportunities from './CareerOpportunities';
 import SocialMedia from './SocialMedia';
 import SiteMap from './SiteMap';
+import ContactInformation from './ContactInformation';
 import './Footer.scss';
 
 class Footer extends Component {
@@ -16,7 +17,8 @@ class Footer extends Component {
           </div>
           <div className="width-50 ">
             <CareerOpportunities />
-
+            <ContactInformation />
+          
           </div>
           <div className="clear"></div>
           <div className="float-right">
@@ -26,6 +28,7 @@ class Footer extends Component {
           <div className="clear"></div>
           <div className="float-right site-map-margin">
             <SiteMap />
+
           </div>
           <div className="clear"></div>
 
