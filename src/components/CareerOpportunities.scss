@@ -1,0 +1,26 @@
+@import '../Variables.scss';
+
+.career-opportunities{
+  h2{
+    color:$white;
+    font-weight:bold;
+    font-size:20px;
+    width:250px;
+    padding-bottom:10px;
+    border-bottom:1px solid $white;
+    margin-bottom:15px;
+    text-transform: uppercase;
+  }
+  a{
+    color:$white;
+    font-size:18px;
+    text-decoration: none;
+    font-family: $serif;
+    font-weight: bold;
+  }
+  a:hover, a:focus{
+    text-decoration: underline;
+  }
+
+
+}
