@@ -2,12 +2,13 @@ import React from 'react';
 import TopCertification from './components/TopCertification.js';
 import Navigation from './components/Navigation.js';
 import HeroImage from './components/HeroImage.js';
-import SectionDivider from './components/SectionDivider.js';
-import ServiceDescriptionLeft from './components/ServiceDescriptionLeft';
-import ServiceDescriptionRight from './components/ServiceDescriptionRight';
-import WorkLocations from './components/WorkLocations';
-import CertificateDescription from './components/CertificateDescription';
+import ServiceSection from './components/ServiceSection';
+import CertificateSection from './components/CertificateSection';
 import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
+
+
+
 import './App.scss';
 
 const App = () =>{
@@ -16,35 +17,10 @@ const App = () =>{
         <TopCertification />
         <Navigation />
         <HeroImage />
-        <SectionDivider title="services"/>
-        <ServiceDescriptionLeft
-          image="images/services/demolition.jpg"
-          title="demolition"
-          description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
-        />
-        <ServiceDescriptionRight
-          image="images/services/roofing.jpg"
-          title="roofing"
-          description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
-        />
-
-        <ServiceDescriptionLeft
-          image="images/services/asbestos-removal.jpg"
-          title="asbestos removal"
-          description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
-        />
-
-        <ServiceDescriptionRight
-          image="images/services/material-supplier.jpg"
-          title="material supplier"
-          description="You know when grown-ups tell you 'everything's going to be ne' and you think they're probably lying to make you feel better? You hit me with a cricket bat. I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself."
-        />
-
-        <WorkLocations />
-        <SectionDivider title="certifications"/>
-        <CertificateDescription />
-        <SectionDivider title="about us" />
+        <ServiceSection />
+        <CertificateSection />
         <AboutUs />
+        <Footer />
       </div>
   );
 };
