@@ -38,8 +38,12 @@ class Navigation extends Component {
       <div className={this.state.scrolled ? 'navigation-container scrolled' : 'navigation-container'}>
 
         <div className="main-container">
-
-          <div className="float-right">
+        <div className="float-left-logo">
+          <img src="images/jg-logo-v2.png" height="110" alt="J&G Demolition" className={this.state.scrolled ? 'logo-min logo' : 'logo'}/>
+          <p className={this.state.scrolled ? 'logo-text logo-text-min': 'logo-text logo-text-full'} >J&G <br/>Demolition</p>
+          <div className="clear"></div>
+        </div>
+          <div className="float-right-nav">
             <ul>
               {
                 this.state.navigation.map(
@@ -49,10 +53,7 @@ class Navigation extends Component {
               }
             </ul>
           </div>
-          <div className="float-left">
-            <img src="images/jg-logo-v2.png" height="110" alt="J&G Demolition" className={this.state.scrolled ? 'logo-min logo' : 'logo'}/>
-            <p className={this.state.scrolled ? 'logo-text logo-text-min': 'logo-text logo-text-full'} >J&G <br/>Demolition</p>
-          </div>
+
 
           <div className="clear"></div>
           </div>

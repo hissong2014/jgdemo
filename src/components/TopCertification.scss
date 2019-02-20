@@ -12,3 +12,31 @@
 .certPreview + .certPreview{
   padding-left:40px;
 }
+@media only screen and (max-width: 1215px){
+  .thumb-cert-container{
+    padding:10px $container-padding;
+    .certPreview{
+      max-width: 12%;
+      height: auto;
+      max-height: 65px;
+    }
+
+  }
+  .certPreview + .certPreview{
+    padding-left:3%;
+  }
+}
+
+@media only screen and (max-width:850px){
+  .thumb-cert-container{
+    .certPreview{
+      max-height: 55px;
+    }
+  }
+}
+
+@media only screen and (max-width:750px){
+  .thumb-cert-container{
+    display:none;
+  }
+}

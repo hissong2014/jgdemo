@@ -18,15 +18,15 @@ class Footer extends Component {
           <div className="width-50 ">
             <CareerOpportunities />
             <ContactInformation />
-          
+
           </div>
           <div className="clear"></div>
-          <div className="float-right">
+          <div >
             <SocialMedia />
 
           </div>
           <div className="clear"></div>
-          <div className="float-right site-map-margin">
+          <div className="site-map-margin">
             <SiteMap />
 
           </div>

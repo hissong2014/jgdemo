@@ -1,3 +1,5 @@
+@import '../Variables.scss';
+
 .center-image{
   margin:0 auto;
   display:block;
@@ -7,14 +9,17 @@
   position:relative;
 }
 
-.hero-text{
+.position-absolute{
   position:absolute;
   top:150px;
-  left:220px;
+  width:100%;
+}
+
+.hero-text{
+  padding:0 100px;
   color:#333333;
   font-size:36px;
   font-weight: bold;
-  width:950px;
   text-align: center;
 }
 
@@ -22,4 +27,46 @@
   img{
     display:block;
     }
+}
+
+@media only screen and (max-width:1215px){
+  .hero-image{
+    img{
+      width:100%;
+      max-width:900px;
+    }
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .hero-text{
+    padding:0 $container-padding;
+    font-size:28px;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .hero-image{
+    margin-top:50px;
+  }
+}
+
+@media only screen and (max-width:750px){
+  .position-absolute{
+    top:70px;
+  }
+}
+
+@media only screen and (max-width:630px){
+  .position-absolute{
+    position:relative;
+    top:0;
+  }
+  .hero-image{
+    margin-top:50px;
+  }
+  .hero-text{
+    font-size:20px;
+    margin-bottom:20px;
+  }
 }
