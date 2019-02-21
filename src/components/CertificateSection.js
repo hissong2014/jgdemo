@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Certificate from './Certificate';
 import SectionDivider from './SectionDivider.js';
+import './CertificateSection.scss';
 
 class CertificateSection extends Component {
 
@@ -64,7 +65,7 @@ class CertificateSection extends Component {
     return (
       <div>
         <SectionDivider title="certifications" location="certifications"/>
-        <div className="main-container center-block">
+        <div className="center-block certificate-container">
 
           {this.state.certificates.map(certificate =>
 

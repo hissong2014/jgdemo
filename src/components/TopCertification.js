@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './TopCertification.scss';
 
+// DEVELOPER NOTE: CERTIFICATE IMAGES SHOULD BE 300x300PX CENTERED VERTICALLY
 class TopCertification extends Component{
   state = {
     certifications:[
@@ -16,11 +17,18 @@ class TopCertification extends Component{
 
   render(){
     return(
-      <div className="thumb-cert-container">
-        <div className="main-container">
+      /* TOP CERTIFICATION PREVIEW */ 
+      <div className="full-width-background">
+        <div className="center-certificate-previews">
           {
             this.state.certifications.map(
-              preview => <img src={preview.image} key={preview.key} height="70" className="certPreview" alt={preview.altTag}/>
+              preview =>
+                <img
+                  src={preview.image}
+                  key={preview.key}
+                  className="certPreview"
+                  alt={preview.altTag}
+                />
             )
           }
         </div>
