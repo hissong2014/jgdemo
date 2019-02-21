@@ -7,8 +7,8 @@ class WorkLocations extends Component {
     return (
       <div className="main-container work-locations">
         <div className="center">
-          <img src="images/work-locations.png" alt="" height="" width="" className="float-left"/>
-          <p className="text float-left">
+          <img src="images/work-locations.png" alt="" height="" width="" className="float-left-map"/>
+          <p className="text float-left-map">
             You know when grown-ups tell you 'everything's
             going to be ne' and you think
             they're probably lying to make you feel

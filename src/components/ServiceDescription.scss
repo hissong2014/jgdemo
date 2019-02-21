@@ -105,6 +105,12 @@
     .service-content-container{
       .service-text{
         width:40%;
+        h2{
+          font-size:22px;
+        }
+        p{
+          font-size:18px;
+        }
       }
     }
   }
@@ -120,12 +126,18 @@
     text-align: center;
   }
   .service-container{
+
     .service-content-container{
       .text-padding-left{
         padding:0;
       }
       .service-text{
         width:100%;
+
+      }
+      .full-image{
+        width:280px;
+        height:280px;
       }
     }
   }

@@ -11,3 +11,30 @@
     padding-top:50px;
   }
 }
+
+.float-left-map{
+  float:left;
+}
+
+@media only screen and(max-width:750px){
+  .float-left-map{
+    float:none;
+  }
+  .work-locations{
+    .center{
+      width:100%;
+      text-align: center;
+      img{
+        width:200px;
+        height:auto;
+      }
+    }
+    .text{
+      width:auto;
+      padding-left:0;
+      padding-top:0;
+      padding: 20px $container-padding;
+
+    }
+  }
+}
