@@ -1,6 +1,6 @@
 import React from 'react';
 import TopCertification from './components/TopCertification.js';
-//import Navigation from './components/Navigation.js';
+import Navigation from './components/Navigation.js';
 //import HeroImage from './components/HeroImage.js';
 //import ServiceSection from './components/ServiceSection';
 //import CertificateSection from './components/CertificateSection';
@@ -16,8 +16,8 @@ const App = () =>{
   return(
       <div className="App">
         <TopCertification />
-      {/*<Navigation />
-         <HeroImage />
+      <Navigation />
+      {/*   <HeroImage />
         <ServiceSection />
         <CertificateSection />
         <AboutUs />

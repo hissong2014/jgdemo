@@ -2,20 +2,19 @@
 
 .full-width-background{
   background:$primary;
-  padding:10px 0;
+  padding:15px 0;
 }
 
 .center-certificate-previews{
   text-align: center;
 }
 .certPreview{
-  width:11%;
-  max-width:110px;
-  height:auto;
+  width:auto;
+  height:50px;
 }
 
 .certPreview + .certPreview{
-  padding-left:20px;
+  padding-left:30px;
 }
 
 /* MAIN CONTAINER */
@@ -26,6 +25,17 @@
 /* IPAD PRO */
 @media only screen and (max-width:1024px){
 
+}
+
+/* CUSTOM */
+@media only screen and (max-width:910px){
+  .certPreview{
+    height:34px;
+  }
+
+  .certPreview + .certPreview{
+    padding-left:15px;
+  }
 }
 
 /* IPAD */
