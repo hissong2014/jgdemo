@@ -19,7 +19,7 @@ class Navigation extends Component {
 
   componentDidMount(){
     window.addEventListener('scroll', () =>{
-      const isTop = window.scrollY < 100;
+      const isTop = window.scrollY < 103;
       if(isTop !== true){
         this.setState({scrolled:true});
       }
@@ -38,22 +38,16 @@ class Navigation extends Component {
       <div className={this.state.scrolled ? 'navigation-container scrolled' : 'navigation-container'}>
 
         <div className="main-container">
-        <div className="float-left-logo">
-          <img src="images/jg-logo-v2.png" height="110" alt="J&G Demolition" className={this.state.scrolled ? 'logo-min logo' : 'logo'}/>
-          <p className={this.state.scrolled ? 'logo-text logo-text-min': 'logo-text logo-text-full'} >J&G <br/>Demolition</p>
-          <div className="clear"></div>
-        </div>
-          <div className="float-right-nav">
-            <ul>
-              {
-                this.state.navigation.map(
-                  navigation =>
-                  <li key={navigation.key}><a href={navigation.navURL}>{navigation.navTitle}</a></li>
-                )
-              }
-            </ul>
-          </div>
+          <img src="images/logo/jg-logo-website.png" height="110" alt="J&G Demolition" className={this.state.scrolled ? 'logo-min logo' : 'logo'}/>
 
+          <ul>
+            {
+              this.state.navigation.map(
+                navigation =>
+                <li key={navigation.key}><a href={navigation.navURL}>{navigation.navTitle}</a></li>
+              )
+            }
+          </ul>
 
           <div className="clear"></div>
           </div>

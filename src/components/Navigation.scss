@@ -2,27 +2,122 @@
 
 .navigation-container{
   width:100%;
-  padding-top:40px;
-  .float-left-logo{
-    float:left;
+  padding-top:15px;
+}
+
+.logo{
+  float:left;
+}
+.logo-min{
+  height:50px!important;
+  width:auto;
+}
+
+ul{
+  float:right;
+  list-style-type: none;
+  li+li{
+    margin-left:25px;
   }
-  .float-right-nav{
-    float:right;
+  li{
+    display:inline;
+    a{
+      font-size:$main-font-size;
+      text-decoration:none;
+      text-transform: uppercase;
+      font-weight: bold;
+      color:$neutral;
+    }
+    a:hover{
+      color:$secondary;
+      border-bottom: 2px solid $secondary;
+    }
+  }
+}
+
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background:rgba(255, 255, 255, .9);
+  z-index: 10000;
+}
+
+
+
+/* MAIN CONTAINER */
+@media only screen and (max-width:1200px){
+  ul{
+    margin-right:$container-padding!important;
+    margin-left:$container-padding!important;
+  }
+  .logo{
+    margin-left:$container-padding!important;
+    height:70px;
+    width:auto;
+  }
+
+}
+
+/* IPAD PRO */
+@media only screen and (max-width:1024px){
+
+}
+
+/* IPAD */
+@media only screen and (max-width:768px){
+
+}
+
+/* CUSTOM */
+@media only screen and (max-width:700px){
+  .logo{
+    float:none;
   }
   ul{
-    padding-top:10px;
-    list-style-type: none;
+    margin-top:15px!important;
+    display:block;
+    float:none;
+  }
+}
+
+/* CUSTOM */
+@media only screen and (max-width:600px){
+  .logo{
+    float:none;
+  }
+
+  .scrolled{
+    position: relative;
+  }
+}
+
+/* CUSTOM */
+@media only screen and (max-width:500px){
+  .logo{
+    margin-left:10px!important;
+    height:40px;
+    margin-bottom:10px;
+  }
+  ul{
+    margin-right:10px!important;
+    margin-left:10px!important;
+    margin-top:0px!important;
     li+li{
-      padding-left:25px;
+      margin-left:2px;
     }
     li{
-      display:inline;
-
+      border:2px solid $neutral;
+      border-radius: 5px;
+      padding:5px 0;
+      margin:2px;
+      display:block;
+      float:left;
+      text-align:center;
+      width:22%;
       a{
-        padding-top:30px;
-        text-decoration:none;
-        text-transform: uppercase;
-        font-weight: bold;
+        font-size:.5em;
         color:$neutral;
       }
       a:hover{
@@ -31,114 +126,19 @@
       }
     }
   }
-  .logo{
-    float:left;
-  }
-  .logo-min{
-    width:50px;
-    height:auto;
-  }
-  .logo-text{
-
-    float:left;
-    color:$primary;
-    font-weight:bold;
-  }
-  .logo-text-min{
-    padding-top:15px;
-    font-size:12px;
-  }
-  .logo-text-full{
-    padding-top:34px;
-    font-size:25px;
-  }
-}
-.scrolled{
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background:rgba(255, 255, 255, .9);
-  z-index: 10000;
-  padding-top:10px;
-  .logo{
-    img{
-      width:10px;
-    }
-  }
 }
 
-@media only screen and (max-width:1215px){
-  .navigation-container{
-    padding-top:25px;
-    ul{
-      margin-right:$container-padding;
-    }
-    .logo{
-      float:left;
-      margin-left:$container-padding;
-      width:80px;
-      height:auto;
-    }
-    .logo-text-full{
-      padding-top:28px;
-      font-size:18px;
-    }
-  }
+/* IPHONE 6/7/8 PLUS */
+@media only screen and (max-width:414px){
+
 }
 
-@media only screen and (max-width:700px){
-  .navigation-container{
-    padding-top:10px;
-    .float-right-nav{
-      float:none;
-      padding-left:$container-padding;
-    }
-    .float-left-logo{
-      float:none;
-      img{
-        width:50px;
-        height:auto;
-      }
-      .logo-text-full{
-        padding-top: 15px;
-font-size: 12px;
-      }
-    }
-  }
+/* IPHONE X/6/7/8 */
+@media only screen and (max-width:375px){
+
 }
 
-@media only screen and (max-width:500px){
-  .navigation-container{
+/* IPHONE 5/SE */
+@media only screen and (max-width:325px){
 
-    .float-right-nav{
-      padding-left:0;
-    }
-    ul{
-      padding-top:10px;
-      list-style-type: none;
-      margin-right:0;
-      li+li{
-        padding-left:0px;
-      }
-      li{
-        display:block;
-        width:25%;
-        text-align: center;
-        float:left;
-        a{
-          padding-top:30px;
-          text-decoration:none;
-          text-transform: uppercase;
-          font-weight: bold;
-          color:$neutral;
-          font-size:10px;
-        }
-        a:hover{
-          color:$secondary;
-          border-bottom: 2px solid $secondary;
-        }
-      }
-    }
-  }
 }
