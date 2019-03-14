@@ -1,7 +1,7 @@
 import React from 'react';
 import TopCertification from './components/TopCertification.js';
 import Navigation from './components/Navigation.js';
-//import HeroImage from './components/HeroImage.js';
+import HeroImage from './components/HeroImage.js';
 //import ServiceSection from './components/ServiceSection';
 //import CertificateSection from './components/CertificateSection';
 //import AboutUs from './components/AboutUs';
@@ -17,8 +17,8 @@ const App = () =>{
       <div className="App">
         <TopCertification />
       <Navigation />
-      {/*   <HeroImage />
-        <ServiceSection />
+         <HeroImage />
+      {/*  <ServiceSection />
         <CertificateSection />
         <AboutUs />
         <Footer />*/}
