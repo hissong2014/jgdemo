@@ -105,24 +105,25 @@ ul{
     margin-left:10px!important;
     margin-top:0px!important;
     li+li{
-      margin-left:2px;
+      margin-left:1px;
     }
     li{
-      border:2px solid $neutral;
-      border-radius: 5px;
+      background: #ccc;
       padding:5px 0;
-      margin:2px;
       display:block;
       float:left;
       text-align:center;
-      width:22%;
+      width:24%;
       a{
         font-size:.5em;
         color:$neutral;
       }
-      a:hover{
-        color:$secondary;
-        border-bottom: 2px solid $secondary;
+
+    }
+    li:hover,li:focus{
+      background:$secondary;
+      a{
+        color:$white;
       }
     }
   }
