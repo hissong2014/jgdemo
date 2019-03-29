@@ -1,144 +1,141 @@
 @import '../Variables.scss';
-.float-left-service{
+
+.description-background{
+  padding:20px 0;
+  background:$accent;
+  width:calc(50% + 300px);
+  margin-bottom:30px;
   float:left;
 }
-.float-right-service{
+
+.description-container{
+  width:800px;
   float:right;
 }
-.background-one{
-  width:calc(50% - 600px);
-  height:320px;
+
+.description-image{
+  display:inline-block;
+}
+
+.description-text{
+  width:420px;
+  float:right;
+  margin:30px 50px;
+  h2{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:$h2;
+    color:$white;
+    margin-bottom:10px;
+  }
+  p{
+    color:$white;
+    font-size:22px;
+  }
+}
+
+.triangle-left{
   float:left;
-  background: $accent;
+  width: 0;
+  height: 0;
+  border-top: 323px solid transparent;
+  border-left:100px solid $accent;
 }
 
-.background-two{
-  width:calc(50% - 600px);
-  height:320px;
+.triangle-right{
   float:right;
-  background: $accent;
+  width: 0;
+  height: 0;
+  border-top: 323px solid transparent;
+  border-right:100px solid $accent;
 }
 
-.service-container{
-  margin-bottom:40px;
-  .left-padding{padding:20px 0 30px 15%;}
-  .right-padding{padding:20px 15% 30px 0;}
-  .service-content-container{
-    background: $accent;
-    width:70%;
-    .text-padding-left{padding-left:80px;}
-    .text-padding-right{padding-right:80px;}
-    .service-text{
-      width:50%;
-      margin-top:30px;
-      h2{
-        text-transform: uppercase;
-        font-weight:bold;
-        font-size:28px;
-        color:$white;
-        margin-bottom:10px;
-      }
-      p{
-        color:$white;
-        font-size:22px;
-      }
-    }
+.float-right-override{
+  float:right;
+}
+.float-left-override{
+  float:left;
+}
+
+/* MAIN CONTAINER */
+@media only screen and (max-width:1200px){
+
+}
+
+/* IPAD PRO */
+@media only screen and (max-width:1024px){
+  .description-background{
+    width:100%;
+    margin-bottom:0;
+  }
+  .description-container{
+    width:auto;
+    margin-left:$container-padding;
+    margin-right:$container-padding;
+    float:none;
+  }
+
+  .description-image{
+    float:left;
+  }
+
+  .description-text{
+    margin:20px 0 20px 40px;
+    width:calc(90% - 270px);
+    float:left;
   }
   .triangle-left{
-    float:left;
-    width: 0;
-    height: 0;
-    border-top: 320px solid transparent;
-    border-left:100px solid $accent;
+    display:none;
   }
+
   .triangle-right{
-    float:right;
-    width: 0;
-    height: 0;
-    border-top: 320px solid transparent;
-    border-right:100px solid $accent;
-  }
-}
-
-@media only screen and(max-width:1200px){
-  .background-one{
     display:none;
-    width:0;
-    height:0;
-    float:none;
+  }
+}
+
+/* IPAD */
+@media only screen and (max-width:768px){
+  .description-text{
+    h2{
+      font-size: $h2-ipad;
+    }
+    p{
+      font-size: $p-ipad;
+    }
   }
 
-  .background-two{
-    display:none;
-    width:0;
-    height:0;
+}
+
+/* CUSTOM */
+@media only screen and (max-width:600px){
+  .description-image{
     float:none;
+    display:block;
+    margin:0 auto;
+    width:270px;
   }
-  .service-container{
-    .left-padding, .right-padding{padding:20px 50px 30px 50px;}
-    .service-content-container{
-      width:100%;
-      .service-text{
-        width:60%;
-      }
-    }
-    .triangle-left, .triangle-right{
-      display:none;
-      overflow: hidden;
+  .description-text{
+    float:none;
+    width:100%;
+    margin:30px 0 0 0;
+    text-align:center;
+  }
+}
+
+/* IPHONE 6/7/8 PLUS */
+@media only screen and (max-width:414px){
+  .description-text{
+    h2{
     }
   }
 }
 
-@media only screen and (max-width:975px){
-  .service-container{
-    .service-content-container{
-      .service-text{
-        width:50%;
-      }
-    }
-  }
+/* IPHONE X/6/7/8 */
+@media only screen and (max-width:375px){
+
 }
 
-@media only screen and (max-width:810px){
-  .service-container{
-    .left-padding, .right-padding{padding:20px $container-padding 30px $container-padding;}
-    .service-content-container{
-      .service-text{
-        width:40%;
-        h2{
-          font-size:22px;
-        }
-        p{
-          font-size:18px;
-        }
-      }
-    }
-  }
-}
+/* IPHONE 5/SE */
+@media only screen and (max-width:325px){
 
-@media only screen and (max-width:650px){
-  .float-left-service, .float-right-service{
-    float:none;
-    display:inline-block;
-  }
-
-  .center-image-mobile{
-    text-align: center;
-  }
-  .service-container{
-
-    .service-content-container{
-      .text-padding-left{
-        padding:0;
-      }
-      .service-text{
-        width:100%;
-
-      }
-      .full-image{
-        width:280px;
-        height:280px;
-      }
-    }
-  }
 }

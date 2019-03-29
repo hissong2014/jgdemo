@@ -8,25 +8,23 @@ class ServiceDescriptionRight extends Component {
   render() {
 
     return (
-    <Fade right>
-      <div className="background-two"></div>
-      <div className="main-container">
-        <div className="service-container">
-          <div className="service-content-container float-right">
-              <div className="right-padding center-image-mobile">
-                <div className="float-right-service">
-                  <CircleImage image={this.props.image} white/>
-                </div>
-                <div className="service-text text-padding-right float-right-service">
-                  <h2>{this.props.title}</h2>
-                  <p>{this.props.description}</p>
-                </div>
-                <div className="clear"></div>
+      <Fade right>
+        <div>
+          <div className="description-background float-right-override">
+            <div className="description-container float-left-override">
+              <div className="description-image">
+                <CircleImage image={this.props.image} white />
               </div>
+              <div className="description-text float-left-override">
+                <h2>{this.props.title}</h2>
+                <p>{this.props.description}</p>
+              </div>
+              <div className="clear"></div>
             </div>
-            <div className="triangle-right"></div>
             <div className="clear"></div>
           </div>
+          <div className="triangle-right"></div>
+          <div className="clear"></div>
         </div>
       </Fade>
 

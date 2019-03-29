@@ -16,6 +16,12 @@
   float:left;
 }
 
+@media only screen and (max-width:1024px){
+  .work-locations{
+    padding-top:40px;
+  }
+}
+
 @media only screen and(max-width:750px){
   .float-left-map{
     float:none;
