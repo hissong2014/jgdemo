@@ -1,29 +1,83 @@
 @import '../Variables.scss';
 
-.about-us{
-  text-align:center;
-  padding-bottom:120px;
-  .display-inline-block{
-    display:inline-block;
-    .description{
-      text-align: left;
-      margin:15px 0 0 100px;
-      width:620px;
-      p{
-        color:$neutral;
-        font-size:20px;
-      }
-      p+p{
-        margin-top:15px;
-      }
+.about-us-description{
+  width:65%;
+  margin:0 auto;
+  p{
+    font-size:1.2em;
+    color:$neutral;
+  }
+  p+p{
+    margin-top:20px;
+  }
+}
 
+.president{
+  margin:60px 0 40px 0;
+  text-align: center;
+}
+
+.employees{
+  display:inline-block;
+  max-width:750px;
+}
+.center-employees{
+  text-align: center;
+}
+
+.badge{
+  margin:0 15px 15px 15px;
+}
+
+
+/* MAIN CONTAINER */
+@media only screen and (max-width:1200px){
+
+}
+
+/* IPAD PRO */
+@media only screen and (max-width:1024px){
+
+}
+
+/* IPAD */
+@media only screen and (max-width:768px){
+
+}
+
+/* CUSTOM */
+@media only screen and (max-width:750px){
+  .employees{
+    width:500px;
+  }
+
+}
+
+/* CUSTOM */
+@media only screen and (max-width:520px){
+  .about-us-description{
+    width:100%;
+    p{
+      padding: 0 $container-padding;
     }
+
   }
   .employees{
-    margin-top:60px;
-    .badge + .badge{
-      margin-left: 80px;
-    }
+    width:320px;
   }
+}
+
+/* IPHONE 6/7/8 PLUS */
+@media only screen and (max-width:414px){
+
+}
+
+/* IPHONE X/6/7/8 */
+@media only screen and (max-width:375px){
+
+}
+
+/* IPHONE 5/SE */
+@media only screen and (max-width:325px){
 
 }
