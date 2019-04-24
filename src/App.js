@@ -5,7 +5,7 @@ import HeroImage from './components/HeroImage.js';
 import ServiceSection from './components/ServiceSection';
 import CertificateSection from './components/CertificateSection';
 import AboutUs from './components/AboutUs';
-//import Footer from './components/Footer';
+import Footer from './components/Footer';
 import './App.scss';
 
 
@@ -21,7 +21,7 @@ const App = () =>{
         <ServiceSection />
         <CertificateSection />
         <AboutUs />
-        {/*<Footer />*/}
+        <Footer />{/* */}
       </div>
   );
 };

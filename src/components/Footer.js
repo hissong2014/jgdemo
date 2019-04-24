@@ -15,10 +15,9 @@ class Footer extends Component {
           <div className="width-50">
             <ContactForm />
           </div>
-          <div className="width-50 ">
+          <div className="width-50">
             <CareerOpportunities />
             <ContactInformation />
-
           </div>
           <div className="clear"></div>
           <div >

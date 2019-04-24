@@ -24,3 +24,35 @@
 
 
 }
+
+/* MAIN CONTAINER */
+@media only screen and (max-width:1200px){
+
+}
+
+/* IPAD PRO */
+@media only screen and (max-width:1024px){
+  .career-opportunities{
+    padding-left:$container-padding;
+  }
+}
+
+/* IPAD */
+@media only screen and (max-width:768px){
+
+}
+
+/* IPHONE 6/7/8 PLUS */
+@media only screen and (max-width:414px){
+
+}
+
+/* IPHONE X/6/7/8 */
+@media only screen and (max-width:375px){
+
+}
+
+/* IPHONE 5/SE */
+@media only screen and (max-width:325px){
+
+}
