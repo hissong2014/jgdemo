@@ -1,13 +1,13 @@
 {
-  "main.css": "/jgdemo/static/css/main.5aeed8cf.chunk.css",
-  "main.js": "/jgdemo/static/js/main.009d30d0.chunk.js",
-  "main.js.map": "/jgdemo/static/js/main.009d30d0.chunk.js.map",
+  "main.css": "/jgdemo/static/css/main.beb7f358.chunk.css",
+  "main.js": "/jgdemo/static/js/main.380ecf06.chunk.js",
+  "main.js.map": "/jgdemo/static/js/main.380ecf06.chunk.js.map",
   "static/js/1.3dbdc2b4.chunk.js": "/jgdemo/static/js/1.3dbdc2b4.chunk.js",
   "static/js/1.3dbdc2b4.chunk.js.map": "/jgdemo/static/js/1.3dbdc2b4.chunk.js.map",
   "runtime~main.js": "/jgdemo/static/js/runtime~main.9f309f52.js",
   "runtime~main.js.map": "/jgdemo/static/js/runtime~main.9f309f52.js.map",
-  "static/css/main.5aeed8cf.chunk.css.map": "/jgdemo/static/css/main.5aeed8cf.chunk.css.map",
+  "static/css/main.beb7f358.chunk.css.map": "/jgdemo/static/css/main.beb7f358.chunk.css.map",
   "index.html": "/jgdemo/index.html",
-  "precache-manifest.c0d8eb415d45c6f73b706b8025bc0666.js": "/jgdemo/precache-manifest.c0d8eb415d45c6f73b706b8025bc0666.js",
+  "precache-manifest.6217cfb36ee1f8683a32ee89991ebac2.js": "/jgdemo/precache-manifest.6217cfb36ee1f8683a32ee89991ebac2.js",
   "service-worker.js": "/jgdemo/service-worker.js"
 }
