@@ -52,14 +52,29 @@
   .submit{
     margin-top:20px;
     display:block;
-    background: $secondary;
+
     color: white;
-    border-color: $secondary;
+    border:none;
     padding:10px 50px;
     font: bold 18px arial, sans-serif;
     border-radius:10px;
-
-text-shadow:none;
+    cursor: pointer;
+    text-shadow:none;
+  }
+  .error-message{
+    margin-top:15px;
+    background:$yellow;
+    padding:20px;
+    border-radius:10px;
+    p{
+      color:$primary;
+      font-weight: bold;
+    }
+  }
+  .input-errors{
+    color:$secondary;
+    font-weight:bold;
+    margin-bottom:5px;
   }
 }
 
