@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Navigation.scss';
+import Hamburger from './Hamburger.js';
 
 class Navigation extends Component {
 
@@ -13,7 +14,8 @@ class Navigation extends Component {
             {key:3, navTitle:"About Us", navURL:"#about-us"},
             {key:4, navTitle:"Contact Us", navURL:"#contact-us"},
           ],
-          scrolled:false
+          scrolled:false,
+          isMenuActive:false
         }
   }
 
@@ -33,14 +35,27 @@ class Navigation extends Component {
     window.removeEventListener('scroll');
   }
 
+  menuClicked(){
+    this.setState({isMenuActive:!this.state.isMenuActive})
+  }
+
   render() {
     return (
       <div className={this.state.scrolled ? 'navigation-container scrolled' : 'navigation-container'}>
 
         <div className="main-container">
-          <img src="images/logo/jg-logo-website.png" height="110" alt="J&G Demolition" className={this.state.scrolled ? 'logo-min logo' : 'logo'}/>
 
-          <ul>
+          <img
+            src="images/logo/jg-logo-website.png"
+            height="110"
+            alt="J&G Demolition"
+            className={this.state.scrolled ? 'logo-min logo' : 'logo'}
+          />
+          <div className="show-hamburger" onClick={this.menuClicked.bind(this)}>
+            <Hamburger/>
+          </div>
+
+          <ul className={this.state.isMenuActive? 'show-menu': 'hide-menu'}>
             {
               this.state.navigation.map(
                 navigation =>
@@ -48,6 +63,7 @@ class Navigation extends Component {
               )
             }
           </ul>
+
 
           <div className="clear"></div>
           </div>
