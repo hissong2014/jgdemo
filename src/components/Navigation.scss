@@ -11,6 +11,7 @@
 
 .logo{
   float:left;
+  cursor: pointer;
 }
 .logo-min{
   height:50px!important;
@@ -25,14 +26,15 @@ ul{
   }
   li{
     display:inline;
-    a{
+    .menu-link{
       font-size:$main-font-size;
       text-decoration:none;
       text-transform: uppercase;
       font-weight: bold;
       color:$neutral;
+      cursor: pointer;
     }
-    a:hover{
+    .menu-link:hover{
       color:$secondary;
       border-bottom: 2px solid $secondary;
     }
@@ -139,14 +141,14 @@ ul{
       float:none;
       text-align:center;
       width:100%;
-      a{
+      .menu-link{
         font-size:1em;
         color:$neutral;
       }
 
     }
     li:hover,li:focus{
-      a{
+      .menu-link{
         color:$white;
         border-bottom:none;
       }
