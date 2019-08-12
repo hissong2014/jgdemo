@@ -10,7 +10,7 @@ class HeroImage extends Component {
           J&G Demolition is a licensed family-owned demolition and hazardous materials remediation contractor, serving commercial and residential clients in Ohio.
         </p>
 
-        <img className="hero-image" width="900" src="images/hero-image-v2.png" alt=""/>
+        <img className="hero-image" width="900" src="images/final-hero-piece.gif" alt=""/>
       </div>
 
     );
